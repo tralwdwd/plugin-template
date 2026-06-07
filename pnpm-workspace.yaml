@@ -6,6 +6,6 @@ peerDependencyRules:
     - react
     - react-native
 
-onlyBuiltDependencies:
+allowBuilds:
   - esbuild
   - "@swc/core"
