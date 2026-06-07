@@ -7,5 +7,5 @@ peerDependencyRules:
     - react-native
 
 allowBuilds:
-  - esbuild
-  - "@swc/core"
+  '@swc/core': true
+  esbuild: true
