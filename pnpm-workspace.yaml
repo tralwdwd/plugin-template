@@ -5,3 +5,7 @@ peerDependencyRules:
   ignoreMissing:
     - react
     - react-native
+
+onlyBuiltDependencies:
+  - esbuild
+  - "@swc/core"
